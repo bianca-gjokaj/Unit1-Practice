@@ -1,0 +1,52 @@
+h1 {
+    color: crimson;
+    font-family: sans-serif;
+    margin: 0px 0px 0px 15px;
+}
+h2 {
+    color:crimson;
+    font-family: sans-serif;
+}
+h3 {
+    color: crimson;
+    font-family: sans-serif;
+}
+a {
+    color: crimson;
+}
+.overview {
+    font-style: italic;
+}
+header {
+    background-color: #eee;
+    padding: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: silver;
+}
+main {
+    padding: 10px;
+}
+footer {
+    background-color: #eee;
+    padding: 10px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: silver;
+}
+footer h3 {
+    margin-top: 0px;
+}
+#my-start {
+    border-bottom-width: 4px;
+    border-bottom-style: dotted;
+    border-bottom-color: crimson;
+}
+#details {
+    border-bottom-width: 4px;
+    border-bottom-style: dotted;
+    border-bottom-color: crimson;
+}
+body {
+    margin: 0;
+}
