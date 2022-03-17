@@ -7,10 +7,13 @@
     <title>Unit1-practice-</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<body>
+
 <header>
     <h1>Bianca Gjokaj</h1>
     <nav>
-        <ul>
+        <ul class="nav-list">
             <li><a href="#my-start">My Start</a></li>
             <li><a href="#details">Details</a></li>
             <li><a href="#social-media">Social Media</a></li>
@@ -19,8 +22,9 @@
 </header>
 
 <main>
-    <img src="Profile-Picture.jpeg" height="150px" alt="Profile Picture" />
-        <p>
+    <img id="profile-pic" img src="Profile-Picture.jpeg" height="150px" alt="Profile Picture" />
+    
+        <p class="overview">
             Oldest daughter out of 5 siblings. Very creative and optimistic mindset,
             love enjoying my free time outside with a soccer ball on my feet or a book
             in my hand.
@@ -41,6 +45,10 @@
             is the perfect place to be. 
         </p>
     <h2 id="details">Details</h2>
+    <blockquote id="joke">
+        <p>How do you tell Simba to move faster?</p>
+        <p>Mu-fasa</p>
+    </blockquote>
     <h3>Favorites</h3>
         <ul>
             <li>My favorite <strong>book</strong> is <cite>Devils Night by Penelope 
@@ -72,7 +80,7 @@
 
 <footer>
         <h3 id="social-media">Social Media</h3>
-    <ul>
+    <ul class="nav-list">
         <li>
             <img src="Github-logo.png" width="64px" alt="Github Logo"/>
             <a href="https://github.com/bianca-gjokaj">Github</a>
@@ -83,4 +91,11 @@
         </li>
     </ul>
 </footer>
+<div class="numbers-box">
+    <div class="color-box color-box-1">1</div>
+    <div class="color-box color-box-2">2</div>
+    <div class="color-box color-box-3">3</div>
+    <div class="color-box color-box-4">4</div>
+</div>
+</body>
 </html>
